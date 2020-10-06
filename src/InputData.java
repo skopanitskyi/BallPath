@@ -22,11 +22,12 @@ public class InputData {
 
     /**
      * InputData class constructor
-     * @param fieldWidth Width of the game field
+     *
+     * @param fieldWidth  Width of the game field
      * @param fieldHeight Height of the game field
-     * @param startPoint Coordinates of the start cell
-     * @param endPoint Coordinates of the end cell
-     * @param gameField Game field
+     * @param startPoint  Coordinates of the start cell
+     * @param endPoint    Coordinates of the end cell
+     * @param gameField   Game field
      */
     public InputData(int fieldWidth, int fieldHeight, Point startPoint, Point endPoint, Cell[][] gameField) {
         this.fieldWidth = fieldWidth;
@@ -38,6 +39,7 @@ public class InputData {
 
     /**
      * Return value of width game field
+     *
      * @return Width value
      */
     public int getFieldWidth() {
@@ -46,6 +48,7 @@ public class InputData {
 
     /**
      * Return value of height game field
+     *
      * @return Height value
      */
     public int getFieldHeight() {
@@ -54,6 +57,7 @@ public class InputData {
 
     /**
      * Return coordinates of the start cell
+     *
      * @return Start cell coordinates
      */
     public Point getStartPoint() {
@@ -62,6 +66,7 @@ public class InputData {
 
     /**
      * Return coordinates of the finish cell
+     *
      * @return Finish cell coordinates
      */
     public Point getEndPoint() {
@@ -70,6 +75,7 @@ public class InputData {
 
     /**
      * Return game field
+     *
      * @return Game field value
      */
     public Cell[][] getGameField() {

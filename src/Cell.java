@@ -22,8 +22,9 @@ public class Cell {
 
     /**
      * Cell class constructor
+     *
      * @param coordinates Cell coordinate
-     * @param hasBall Is cell has ball
+     * @param hasBall     Is cell has ball
      */
     public Cell(Point coordinates, boolean hasBall) {
         this.coordinates = coordinates;
@@ -34,6 +35,7 @@ public class Cell {
 
     /**
      * Set visit value for the cell
+     *
      * @param visited New visit value
      */
     public void setVisited(boolean visited) {
@@ -42,6 +44,7 @@ public class Cell {
 
     /**
      * Return visit value for the current cell
+     *
      * @return Visit value
      */
     public boolean isVisited() {
@@ -50,6 +53,7 @@ public class Cell {
 
     /**
      * Return is cell has a ball
+     *
      * @return Is cell has a ball
      */
     public boolean isHasBall() {
@@ -58,6 +62,7 @@ public class Cell {
 
     /**
      * Return distance index for the current cell
+     *
      * @return Distance index value
      */
     public Integer getDistanceIndex() {
@@ -66,6 +71,7 @@ public class Cell {
 
     /**
      * Set distance index value for the current cell
+     *
      * @param distanceIndex Distance value
      */
     public void setDistanceIndex(Integer distanceIndex) {
@@ -74,6 +80,7 @@ public class Cell {
 
     /**
      * Return coordinates of the cell
+     *
      * @return Cell coordinates
      */
     public Point getCoordinates() {
@@ -82,6 +89,7 @@ public class Cell {
 
     /**
      * Return step value for the current cell
+     *
      * @return Step value
      */
     public char getStepToFinalPoint() {
@@ -90,6 +98,7 @@ public class Cell {
 
     /**
      * Set step value for the current cell
+     *
      * @param stepToFinalPoint New step value
      */
     public void setStepToFinalPoint(char stepToFinalPoint) {
